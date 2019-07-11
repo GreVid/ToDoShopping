@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDo Shopping</string>
+    <string name="thingsToBuy">Stvari, ki manjkajo:</string>
+    <string name="addItemButton">Dodaj stvar</string>
+</resources>

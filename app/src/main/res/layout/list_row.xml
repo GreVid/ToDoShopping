@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/person_photo"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/person_age"
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="-26dp"
+                android:layout_toEndOf="@+id/item"
+                android:layout_toRightOf="@+id/person_photo" />
+
+            <ImageView
+                android:id="@+id/check"
+                android:layout_width="46dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="4dp"
+                android:layout_toEndOf="@+id/item"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_check_black_24dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</android.support.constraint.ConstraintLayout>
